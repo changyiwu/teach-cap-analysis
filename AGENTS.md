@@ -1,4 +1,4 @@
-# exam-analysis（專案藍圖）
+# teach-cap-analysis（專案藍圖）
 
 > 本檔為跨 Agent 通用的專案藍圖（AGENTS.md 開放標準）。任何 Agent 的每個 session 都應先讀本檔＋`handoff.md`。
 
@@ -35,8 +35,8 @@
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md` | 每個 session |
-| L2 | GitHub | [changyiwu/exam-analysis](https://github.com/changyiwu/exam-analysis) | 指定時 |
-| L3 | Obsidian | `exam-analysis/專案工作流程.md` | 有需要時 |
+| L2 | GitHub | [changyiwu/teach-cap-analysis](https://github.com/changyiwu/teach-cap-analysis) | 指定時 |
+| L3 | Obsidian | `teach-cap-analysis/專案工作流程.md` | 有需要時 |
 
 ## 三個檔案的職責（依「時效性」分家，不是依「詳細程度」）
 
@@ -62,7 +62,7 @@
 
 - **隱私至上**：本專案涉及試題與成績，**嚴禁將學生的真實姓名、真實個資、學號**或任何敏感個資寫入程式碼或 Markdown 檔案。需要測試資料時一律使用去識別化的虛擬資料
 - **金鑰防護**：嚴禁將任何 API Key、Token、密碼等敏感憑證 commit 至 GitHub
-- 本專案為公開 repo `changyiwu/exam-analysis`，上述規範沒有例外
+- 本專案為公開 repo `changyiwu/teach-cap-analysis`，上述規範沒有例外
 
 ## 視覺與設計美學
 
