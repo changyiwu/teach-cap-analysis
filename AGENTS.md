@@ -57,6 +57,7 @@
 - 腳本內禁止寫死使用者家目錄或 Agent 暫存路徑，一律用 `Path(__file__)` 推導專案根目錄
 - 圖表與報告的數字一律以 `scripts/classify_and_analyze.py` 的輸出為準；要改分類就改 `OVERRIDES` 後重跑兩支腳本，不要手動改報告或圖表裡的數字
 - 所有回應與文件使用繁體中文
+- **產出一律放 `output/`**：本專案產生的檔案或資料夾（成品、匯出、報表、生成圖、渲染等）預設放專案根目錄的 `output/`，不另開 `outputs/`、`exports/`、`generated/`、`out/` 之類的資料夾，方便找；`output/` 不進 git。部署工具指定的建置目錄（`dist/`、`build/`）不在此限
 
 ## 安全規範
 
